@@ -1,0 +1,77 @@
+:root {
+  --almost-white: #F8E9E9;
+  --almost-black: #394648;
+}
+
+/* My CSS */
+.buttons,
+.container {width: 30rem}
+.buttons,
+.container, 
+body {display: flex}
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: var(--almost-white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo-img {
+  width: 21rem;
+  height: 21rem;
+  background-image: url(images/light-mem-logo.PNG);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  height: 14rem;
+  width: 21rem;
+  flex-wrap: wrap;
+}
+.container div {
+  height: 7rem;
+  width: 7rem;
+  border: 0.5rem solid var(--almost-white);
+  box-sizing: border-box;
+  background-color: #cdb1b2;
+  border-radius: 1rem;
+}
+.buttons .start,
+.buttons select {
+  width: 5rem;
+  height: 2rem;
+  border-style: none;
+  border-radius: 0.25rem;
+}
+.container div:active {
+  background: rgba(0, 0, 0, 0.5);
+}
+.buttons {
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 21rem;
+}
+button:hover {cursor: pointer}
+.buttons .start {
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+}
+.buttons label {color: var(--almost-black)}
+.buttons select {
+  background-color: #0275d8;
+  color: var(--almost-white);
+}
+.buttons .confirm {
+  border-style: none;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+}
+.doodledee-logo {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+
+
